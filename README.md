@@ -21,7 +21,7 @@ python run.py
 ```
 ## Hello World
 A aplicação funciona com autenticação JWT, portanto inicialmente deverá solicitar o token utilizando a requisição:
-http://10.0.1.31:5000/v1/authenticate, após o recimento do token, a requisição deverá ser feita da seguinte forma: http://10.0.1.31:5000/v1?token=INSIRA_O_TOKEN.
+http://0.0.0.0:5000/v1/authenticate, após o recimento do token, a requisição deverá ser feita da seguinte forma: http://0.0.0.0:5000/v1?token=INSIRA_O_TOKEN.
 
 Após a requsição, o retorno deverá ser: {"message": "Hello Nome_Usuario"}
 
